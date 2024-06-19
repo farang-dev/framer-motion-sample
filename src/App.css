@@ -1,26 +1,29 @@
 /* src/App.css */
 .App {
   text-align: center;
-  padding: 50px;
   font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-h1 {
-  font-size: 2.5em;
+header, section {
+  margin: 20px 0;
+}
+
+h1, h2 {
+  font-size: 2em;
   color: #333;
 }
 
-p {
+p, li {
   font-size: 1.2em;
   color: #666;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 1em;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
 }
